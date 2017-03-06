@@ -219,8 +219,8 @@ ul.list-icon li:before{
 	position: absolute;
 }
 #logo img{
-	height: 50px;
-	width: auto;
+	height: 100px;
+	width: 130px;
 }
 #menu{
 	float: right;
