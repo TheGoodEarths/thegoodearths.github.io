@@ -714,7 +714,34 @@ form label {
   line-height: 1.5;
   margin-bottom: 30px;
 }
-
+.gtco-facts p {
+	color: #000000 !important;
+}
+#how-to p,
+.text-justified {
+	text-align: justify;
+    text-justify: inter-word;
+}
+span.dropcap{
+    display: inline-block;
+    float: left;
+	font-size: 36px;
+	height: 45px;
+	line-height: 45px;
+	margin: 5px 17px 0 0;
+	text-transform: uppercase;
+	color: #CCC;
+	font-weight: bold;
+	text-align: center;
+	width: 45px;
+}
+.gtco-facts .counter {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #000000 !important;
+  font-weight: 100;
+  display: block;
+}
 #gtco-counter {
   text-align: center;
 }
@@ -786,6 +813,7 @@ form label {
   border-bottom: 1px solid #e6e6e6;
 }
 
+.gtco-facts,
 #gtco-features {
   background: #FBB448;
 }
